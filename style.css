@@ -59,8 +59,14 @@ button:hover {
 
 .banner {
   display: flex;
+  justify-content: space-between;
   padding-top: 30px;
   padding-bottom: 60px;
+}
+
+.right-banner {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .left-banner,
@@ -188,6 +194,7 @@ button:hover {
   padding-bottom: 10%;
   display: flex;
   justify-content: space-around;
+  gap: 30px;
 }
 
 .blue-space h6 {
@@ -198,6 +205,7 @@ button:hover {
 .blue-space p {
   font-size: 18px;
   color: #e5e7eb;
+  margin-top: 5px;
 }
 
 #bottom-button {
