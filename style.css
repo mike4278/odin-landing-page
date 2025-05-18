@@ -43,6 +43,20 @@
   gap: 20px;
 }
 
+.links a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fcfcfc;
+}
+
+button:hover {
+  background-color: #3882f6;
+  font-weight: 900;
+}
+
 .banner {
   display: flex;
   padding-top: 30px;
